@@ -129,9 +129,6 @@ nav a:hover{
 
             /* CADASTRE-SE*/
 
-            
-
-            
             body {
                 font-family: Arial, sans-serif;
                 background-color: #f4f4f4;              /*BODY INICIAL*/
@@ -152,7 +149,7 @@ nav a:hover{
             textarea { 
                 width: 100%;
                 height: 150px;
-                margin-top: 10px;           /*QUADRADE DE FEEDBACK*/
+                margin-top: 10px;           /*QUADRADO DE FEEDBACK*/
                 padding: 10px;
                 border: 1px solid #ccc;
                 border-radius: 5px;
@@ -167,5 +164,11 @@ nav a:hover{
                 margin-top: 10px;
             }
             button:hover {
-                background-color: #0056b3;         /*HOVER DO BOTAO AZUL GALERIA*/ 
+                background-color: #0056b3;        /*HOVER DO BOTAO AZUL GALERIA*/ 
             }
+
+           
+
+            
+
+            
