@@ -1,5 +1,5 @@
 function changeFontSize(action){                      //ACTION PARA MOSTRAR A AÇAO QUE A FUNCTION VAI FZR
-    const elements = ['h1','h2','body', 'p'];        //OQUE VAI AUMENTAR OU DIMINUIR NO SITE
+    const elements = ['h1','h2','body','p'];        //OQUE VAI AUMENTAR OU DIMINUIR NO SITE
     elements.map(element=>{                          
         
         const selector = document.querySelector(element);                            //MELHORAR O CODIGO PARA NAO USAR DOCUMENTE.QUERYSELECTOR 2 VZS
