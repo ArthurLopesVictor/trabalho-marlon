@@ -1,0 +1,69 @@
+/*GALERIA*/
+
+
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+     
+ }
+
+
+ .secao4 {
+    margin: 0;
+    font-family: Helvetica, sans-serif;             /*CORREÇÃO DE ESTILO DE TEXTO*/
+}
+ 
+ .secao4-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;                    /* DEIXAR EM 'COLUNAS' OS CARDS*/
+    padding: 10px;
+    text-align: center;
+}
+ 
+ .secao4-div-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 60px);                                   /*BORDA E TUDO MAIS*/
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+
+ 
+ .secao4-div-card:hover {
+    transform: scale(1.1);                  /* EFEFFITO HOVER DE */
+    z-index: 1;
+}
+ 
+.secao4-div-card img {
+    width: 35%;
+    height: auto;                           /*CORREÇÃO DE TAMANHO DA IMAGEM*/
+}
+ 
+.secao4-div-card h3 {
+    margin-bottom: 0px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+   border: 4px solid #ffffff;
+  }
+
+
+    button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 15px;                /*BOTAO AZUL GALERIA*/
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }

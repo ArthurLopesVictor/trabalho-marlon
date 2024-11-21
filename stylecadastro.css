@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;              /*BODY INICIAL*/
+    color: #333;
+    padding: 20px;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);            /*MESMO CONTAINER PARA DEIXAR O FFEFFEDBACK MAIS BONITO*/
+    max-width: 600px;
+    margin: auto;
+}
+h1 {
+    color: #007BFF;             /*COR SOBRE MIM*/
+}
+textarea { 
+    width: 96%;
+    height: 150px;
+    margin-top: 10px;           /*QUADRADO DE FEEDBACK*/
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}                                   
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;                /*BOTAO AZUL GALERIA*/
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #0056b3;        /*HOVER DO BOTAO AZUL GALERIA*/ 
+}
