@@ -67,3 +67,24 @@ img {
         cursor: pointer;
         margin-top: 10px;
     }
+
+
+
+    footer img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer a{
+        margin: 20px;
+        text-align: center;
+    }
+    
+    footer p{
+        margin-top: 2px;
+    }

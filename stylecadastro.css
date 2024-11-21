@@ -35,3 +35,23 @@ button {
 button:hover {
     background-color: #0056b3;        /*HOVER DO BOTAO AZUL GALERIA*/ 
 }
+
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
+}
