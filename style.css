@@ -8,7 +8,7 @@ ul{
 }
 
 a{
-    color: #000000;
+    color: var(--text-color);
     text-decoration: none;
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -31,7 +31,7 @@ header img{
    }
       
     h1{
-    color: rgb(0, 0, 0);
+    color: var(--text-color);
     font-size: large;
 }
 
@@ -83,10 +83,81 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: var(--base-color);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);            /*CONTAINER TIPO PORTIFOLIO*/
     max-width: 600px;
     margin: auto;
 }
+
+
+
+
+
+  .darkmode{
+    --base-color: #070b1d;
+    --base-variant: #101425;
+    --text-color: #ffffff;
+    --secondary-text: #a4a5b8;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    font-family: Poppins;
+  }
+  body{
+    min-height: 100vh;
+    background-color: var(--base-color);
+    color: var(--text-color);
+  }
+  header, section{
+    padding: 30px min(30px, 7%);
+  }
+  section{
+    background-color: var(--base-variant);
+  }
+
+  .div:button{
+    border: none;
+    padding: .8em 2em;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    font: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .cta-button{
+    background-color: var(--accent-color);
+  }
+  #theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  #theme-switch svg{
+    fill: var(--primary-color);
+  }
+  #theme-switch svg:last-child{
+    display: none;
+  }
+  .darkmode #theme-switch svg:first-child{
+    display: none;
+  }
+  .darkmode #theme-switch svg:last-child{
+    display: block;
+  }
