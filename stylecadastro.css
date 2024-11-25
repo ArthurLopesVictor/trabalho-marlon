@@ -99,6 +99,7 @@ footer p{
     text-transform: uppercase;
     font-weight: 500;
     cursor: pointer;
+    
   }
   .cta-button{
     background-color: var(--accent-color);
@@ -127,4 +128,11 @@ footer p{
   }
   .darkmode #theme-switch svg:last-child{
     display: block;
+  }
+
+  #dataHora {
+    font-size: 15px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
   }

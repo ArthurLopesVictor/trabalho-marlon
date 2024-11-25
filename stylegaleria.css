@@ -12,7 +12,7 @@
 
  .secao4 {
     margin: 0;
-    font-family: Helvetica, sans-serif;             /*CORREÇÃO DE ESTILO DE TEXTO*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif         /*CORREÇÃO DE ESTILO DE TEXTO*/
 }
  
  .secao4-div {
@@ -165,4 +165,12 @@ img {
       }
       .darkmode #theme-switch svg:last-child{
         display: block;
+      }
+
+
+      #dataHora {
+        font-size: 15px;
+        color: var(--text-color);
+        display: flex;
+        justify-content: center;
       }

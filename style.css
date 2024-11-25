@@ -14,7 +14,7 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-header img{
+article img{
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -115,7 +115,7 @@ body {
     background-color: var(--base-color);
     color: var(--text-color);
   }
-  header, section{
+  article, section{
     padding: 30px min(30px, 7%);
   }
   section{
@@ -160,4 +160,12 @@ body {
   }
   .darkmode #theme-switch svg:last-child{
     display: block;
+  }
+
+
+  #dataHora {
+    font-size: 15px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
   }
